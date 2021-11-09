@@ -301,8 +301,6 @@ header .fa-times {
 .about .container .image {
   width: 50%;
 }
-@media (max-width: 250px) {
-}
 /* <--------------- Teacher ---------------> */
 .teacher-cards {
   display: flex;
@@ -552,8 +550,7 @@ textarea:focus {
 .footer .credit span {
   color: var(--pink);
 }
-@media (max-width: 250px) {
-}
+
 /* <-------------------Media Query-------------------> */
 
 /* <--------------- Custom Media -------------------> */
@@ -865,6 +862,7 @@ textarea:focus {
   /* about */
   .about .container .content h3 {
     font-size: 1.8rem;
+    margin-right: 2rem;
   }
   .about .container .content p {
     font-size: 1rem;
