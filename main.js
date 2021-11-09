@@ -89,7 +89,7 @@ let course = document.getElementById("course");
 course.onclick = function () {
   if (window.innerWidth <= 700) {
     window.scrollTo({
-      top: 1550,
+      top: 1800,
       behavior: "smooth",
     });
   } else {
@@ -105,7 +105,7 @@ let review = document.getElementById("review");
 review.onclick = function () {
   if (window.innerWidth <= 700) {
     window.scrollTo({
-      top: 2300,
+      top: 2700,
       behavior: "smooth",
     });
   } else {
@@ -121,7 +121,7 @@ let contact = document.getElementById("contact");
 contact.onclick = function () {
   if (window.innerWidth <= 700) {
     window.scrollTo({
-      top: 2500,
+      top: 2900,
       behavior: "smooth",
     });
   } else {
