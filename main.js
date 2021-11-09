@@ -55,45 +55,81 @@ home.onclick = function () {
 
 let about = document.getElementById("about");
 about.onclick = function () {
-  window.scrollTo({
-    top: 600,
-    behavior: "smooth",
-  });
+  if (window.innerWidth <= 700) {
+    window.scrollTo({
+      top: 360,
+      behavior: "smooth",
+    });
+  } else {
+    window.scrollTo({
+      top: 600,
+      behavior: "smooth",
+    });
+  }
   important();
 };
 
 let teacher = document.getElementById("teacher");
 teacher.onclick = function () {
-  window.scrollTo({
-    top: 1200,
-    behavior: "smooth",
-  });
+  if (window.innerWidth <= 700) {
+    window.scrollTo({
+      top: 780,
+      behavior: "smooth",
+    });
+  } else {
+    window.scrollTo({
+      top: 1200,
+      behavior: "smooth",
+    });
+  }
   important();
 };
 
 let course = document.getElementById("course");
 course.onclick = function () {
-  window.scrollTo({
-    top: 1800,
-    behavior: "smooth",
-  });
+  if (window.innerWidth <= 700) {
+    window.scrollTo({
+      top: 1550,
+      behavior: "smooth",
+    });
+  } else {
+    window.scrollTo({
+      top: 1800,
+      behavior: "smooth",
+    });
+  }
   important();
 };
 
 let review = document.getElementById("review");
 review.onclick = function () {
-  window.scrollTo({
-    top: 2500,
-    behavior: "smooth",
-  });
+  if (window.innerWidth <= 700) {
+    window.scrollTo({
+      top: 1920,
+      behavior: "smooth",
+    });
+  } else {
+    window.scrollTo({
+      top: 2500,
+      behavior: "smooth",
+    });
+  }
   important();
 };
 
 let contact = document.getElementById("contact");
 contact.onclick = function () {
-  window.scrollTo({
-    top: 2950,
-    behavior: "smooth",
-  });
+  if (window.innerWidth <= 700) {
+    window.scrollTo({
+      top: 2350,
+      behavior: "smooth",
+    });
+  } else {
+    window.scrollTo({
+      top: 2950,
+      behavior: "smooth",
+    });
+  }
   important();
 };
+
