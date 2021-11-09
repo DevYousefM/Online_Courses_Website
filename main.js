@@ -89,12 +89,12 @@ let course = document.getElementById("course");
 course.onclick = function () {
   if (window.innerWidth <= 700) {
     window.scrollTo({
-      top: 1800,
+      top: 1550,
       behavior: "smooth",
     });
   } else {
     window.scrollTo({
-      top: 2100,
+      top: 1800,
       behavior: "smooth",
     });
   }
@@ -105,7 +105,7 @@ let review = document.getElementById("review");
 review.onclick = function () {
   if (window.innerWidth <= 700) {
     window.scrollTo({
-      top: 2700,
+      top: 1920,
       behavior: "smooth",
     });
   } else {
@@ -121,7 +121,7 @@ let contact = document.getElementById("contact");
 contact.onclick = function () {
   if (window.innerWidth <= 700) {
     window.scrollTo({
-      top: 2900,
+      top: 2350,
       behavior: "smooth",
     });
   } else {
@@ -132,4 +132,3 @@ contact.onclick = function () {
   }
   important();
 };
-
