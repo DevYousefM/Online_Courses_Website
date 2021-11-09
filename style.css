@@ -875,6 +875,7 @@ textarea:focus {
     width: 7rem;
     border-radius: 5rem;
     font-size: 1rem;
+    margin-right: 2rem;
   }
   .container {
     flex-direction: column-reverse;
