@@ -94,7 +94,7 @@ course.onclick = function () {
     });
   } else {
     window.scrollTo({
-      top: 1800,
+      top: 2100,
       behavior: "smooth",
     });
   }
@@ -105,7 +105,7 @@ let review = document.getElementById("review");
 review.onclick = function () {
   if (window.innerWidth <= 700) {
     window.scrollTo({
-      top: 1920,
+      top: 2300,
       behavior: "smooth",
     });
   } else {
@@ -121,7 +121,7 @@ let contact = document.getElementById("contact");
 contact.onclick = function () {
   if (window.innerWidth <= 700) {
     window.scrollTo({
-      top: 2350,
+      top: 2500,
       behavior: "smooth",
     });
   } else {
